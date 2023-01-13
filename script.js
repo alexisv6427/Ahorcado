@@ -24,6 +24,8 @@ var monoArr = ["https://i.pinimg.com/originals/8d/1e/1f/8d1e1f7b8c761e3afa2a899c
 "./brazo_Der.png", "./pierna_Izq.png",
 "./pierna_Der.png"  ];
 
+alert("Para una visualización óptima por favor ajuste el zoom de la página a 80%")
+
 // realiza la figura en los respectivos espacios cada vez que se equivoque el usuario
 function hacerMono() {
    var cabeza = document.createElement('img');
