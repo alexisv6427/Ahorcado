@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ahorcado</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+
+<body>
+  <div id="tittle">
+    <h1>Ahorcado</h1>
+  </div>
+  <div id="category"></div>
+  <!-- mensaje y boton que se mostraran cuando gane el usuario -->
+  <div id="mensaje" class="mensaje" style="display:none;"> 
+    <h2>Felicidades ganaste el juego</h2>
+    <button class="recargar" onClick="window.location.reload(true)">Volver a jugar</button> <!--boton para reiniciar y volver a jugar-->
+   </div>
+   <!-- fin del mensaje y boton -->
+  <div id="graphics"></div>
+  <div id="word"></div>
+  <div id="palabra" class="padrePalabra"></div>
+  <div id="keyboard" class="Teclado"> </div>
+   <!-- boton para cambiar la palabra -->
+  <div id="cambio">
+    <button class="cambio" onClick="window.location.reload(true)">Cambiar la palabra</button>
+  </div>
+  <!-- fin del boton -->
+   <!-- mensaje y boton que se mostraran cuando gane el usuario -->
+  <div id="mensajeP" class="mensaje" style="display:none;">
+    <h2>Lo siento, te han ahorcado</h2>
+  </div>
+  <div id="boton_recargar" class="recargar" style="display:none;">
+    <button onClick="window.location.reload(true)">¿Intentarlo de nuevo?</button> <!--boton para reiniciar y volver a jugar-->
+  </div>
+  <!-- fin del msenaje y boton -->
+  
+  <div id="indicador_Mono"></div> <!--Aqui se muestra de manera textual la figura-->
+
+  <!-- Aqui se dibuja la figura de manera grafica -->
+  <div id="mono">
+    <div id="mono1"></div> <!--Cabeza-->
+    <div id="mono2"></div> <!--Torso y brazos-->
+    <div id="mono3"></div> <!--Piernas-->
+  </div>
+  <!-- animación despues de ganar -->
+  <div id="animacion" class="animacion" style="display:none;">
+
+    <div class="globo">
+      <div class="snow"></div>
+      <div class="tree1"></div>
+      <div class="tree2"></div>
+      <div class="house">
+        <div class="roof1">
+          <div class="b1"></div>
+          <div class="b2"></div>
+        </div>
+        <div class="wall1">
+          <div class="w3">
+            <div class="window1">
+              <div class="glass1"></div>
+            </div>
+          </div>
+        </div>
+        <div class="wall2">
+          <div class="light">
+            <div class="w1">
+              <div class="window">
+                <div class="glass"></div>
+              </div>
+            </div>
+            <div class="w2">
+              <div class="window">
+                <div class="glass"></div>
+              </div>
+            </div>
+          </div>
+          <div class="door">
+            <div class="handle"></div>
+          </div>
+          <div class="snw1"></div>
+          <div class="snw2"></div>
+        </div>
+        <div class="wall3">
+          <div class="b3"></div>
+          <div class="b4"></div>
+          <div class="chimney">
+            <div class="top">
+              <div class="smoke">
+                <div class="s1"></div>
+                <div class="s2"></div>
+                <div class="s3"></div>
+              </div>
+              <div class="shne1"></div>
+              <div class="shne2"></div>
+            </div>
+          </div>
+          <div class="sn">
+            <div class="dr1"></div>
+            <div class="dr2"></div>
+            <div class="dr3"></div>
+          </div>
+          <div class="sn1">
+            <div class="dr4"></div>
+          </div>
+          <div class="sh1"></div>
+          <div class="sh2"></div>
+          <div class="sh3"></div>
+          <div class="sh4"></div>
+          <div class="sh5"></div>
+        </div>
+      </div>
+      <div class="snowfall"></div>
+      <div class="cover"></div>
+      <div class="bottom">
+        <div class="bt1"></div>
+        <div class="bt2"></div>
+      </div>
+      <div class="fence">
+        <div class="fn1">
+          <div class="screw"></div>
+        </div>
+        <div class="fn2">
+          <div class="screw"></div>
+        </div>
+        <div class="fn3">
+          <div class="screw"></div>
+        </div>
+        <div class="stck"></div>
+      </div>
+     <!-- Termina el div de animacion -->
+
+</body>
+
+</html>

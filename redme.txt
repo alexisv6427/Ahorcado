@@ -1,0 +1,21 @@
+Definición:
+Juego donde se trata de deducir la palabra elegida por el sistema a partir de algunas letras descubiertas.
+
+Requerimientos, reglas y mecánica del juego:
+
+1 Existen categorías de palabras a ser escogida por el participante.
+2 La palabra será elegida por el sistema aleatoriamente.
+3. Las letras disponibles se muestran en pantalla a modo de teclado.
+4. Al inicio del juego, el participante conocerá la longitud y el número de letras graficamente en la pantalla.
+4.1 Existen N intentos, antes de que el participante pierda la partida.
+Por cada letra errada por parte del participante, este pierde un intento de descubrir la letra correcta y se construye una sección de la horca.
+El juego termina con 2 condiciones:
+Cuando el participante deduce la palabra.
+Cuando se agotan los intentos para descubrir la palabra.
+Cuando el participante, acierta una letra, se descubren, en la palabra, todas sus coincidencias.
+Cada letra se puede intentar 1 sola vez.
+
+
+Mono Ahorcado = [Cabeza,Cuerpo, Brazo Izq, Brazo Der, Pierna Izq, Pierna Derecha]
+
+
